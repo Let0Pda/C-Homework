@@ -4,10 +4,10 @@ Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a < b)
 {
-    Console.WriteLine( $"max =  {b} min = {a} ");
+    Console.WriteLine( $"max =  {b}, min = {a} ");
 }
 else
 {
-    Console.WriteLine($"max =  {a} min = {b} " );
+    Console.WriteLine($"max =  {a}, min = {b} " );
 
 }
