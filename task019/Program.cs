@@ -16,7 +16,6 @@ void CheckingNumber(string number)
     }
     else Console.WriteLine($"Ваше число: {number} - НЕ палиндром.");
 }
-
 if (number!.Length == 5)
 {
     CheckingNumber(number);

@@ -28,5 +28,6 @@ double Decision(double x1, double x2,
 
 double Length = Math.Round(Decision(x1, x2, y1, y2, z1, z2), 2);
 
-Console.WriteLine($"Длина отрезка  {Length}");
+Console.WriteLine();
+Console.WriteLine($"Длина отрезка  =>  {Length}");
 

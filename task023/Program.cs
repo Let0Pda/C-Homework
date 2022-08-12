@@ -26,7 +26,15 @@ void PrintArry(int[] coll)
         index++;
     }
 }
-int[] arry = new int[N + 1];
-Cube(arry);
-PrintArry(arry);
+if (N >= 1)
+{
+
+    int[] arry = new int[N + 1];
+    Cube(arry);
+    PrintArry(arry);
+}
+else
+{
+    Console.Write("Введите правильное число: ");
+}
 Console.WriteLine();
