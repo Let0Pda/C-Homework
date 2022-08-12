@@ -9,6 +9,8 @@ Console.Clear();
 Console.WriteLine("Задача 13 ");
 Console.Write("Введи число: ");
 int number = Convert.ToInt32(Console.ReadLine());
+number = Math.Abs(number);
+//Console.WriteLine(number); // Это проверка для отрицательного числа
 string numberText = Convert.ToString(number);
 if (numberText.Length > 2)
 {
