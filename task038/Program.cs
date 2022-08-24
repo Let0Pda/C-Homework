@@ -11,7 +11,7 @@ double[] arrayRealN = new double[N];
 for (int i = 0; i < N; i++)
 {
     Console.Write($"\nВведите {i + 1}й элемент массива:\t"); // Ввод числа через (,) заработал {N,n}
-    arrayRealN[i] = double.Parse(Console.ReadLine());
+    arrayRealN[i] = Convert.ToDouble(Console.ReadLine());
 }
 double max = arrayRealN[0];
 double min = arrayRealN[0];
