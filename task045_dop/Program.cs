@@ -3,7 +3,6 @@
 // 4 -> 24
 // 5 -> 120
 
-
 Console.Clear();
 Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
