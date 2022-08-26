@@ -4,13 +4,13 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-//Console.Clear();
+Console.Clear();
 Console.WriteLine("Задайте двумерный массив m x n");
 Console.Write("\nВведите m: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите n: ");
 int n = Convert.ToInt32(Console.ReadLine());
-//Console.Clear();
+Console.Clear();
 
 Console.WriteLine($"\nДвумерный массив вещественных чисел размера 'm' = {m} на 'n' = {n}:\n");
 double[,] matrix = new double[m, n];
