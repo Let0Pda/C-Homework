@@ -20,7 +20,7 @@ for (int i = 0; i < m; i++)
     {
         matrix[i, j] = new Random().NextDouble() * 20 - 10;
         Console.Write(Math.Round((matrix[i, j]), 1) + " |");
-        //Console.Write(String.Format("{0,3}", (Math.Round((matrix[i, j]), 1))) + "|"); // не вижу разницы в выводе
+        //Console.Write(String.Format("{0,3}", (Math.Round((matrix[i, j]), 1))) + "|"); // не вижу разницы в выводе с округлением
 
 
     }
