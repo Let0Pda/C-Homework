@@ -34,8 +34,8 @@ if (position[0] <= m
     && position[0] >= 0
     && position[1] >= 0)
 {
-    double result = matrix[position[0], position[1]];   // Не очень понятно, как задают позицию, видимые или реальные индексы? 
-                                                        //Возможно и так "double result = matrix[position[0] -1, position[1] -1];"
+    double result = matrix[position[0] - 1, position[1] - 1];   // Не очень понятно, как задают позицию, видимые или реальные индексы? 
+                                                                //Возможно и так "double result = matrix[position[0] -1, position[1] -1];"
     Console.Write($"\nЗначение элемента: {result}\n");
 }
 else Console.Write($"\nТакого элемента в массиве нет.\n");
