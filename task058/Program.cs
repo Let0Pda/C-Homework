@@ -8,12 +8,12 @@
 */
 
 Console.Clear();
-int[,] PrintMatrix(int m, int n)
+int[,] PrintMatrix(int row, int col)
 {
-    int[,] matr = new int[m, n];
-    for (int i = 0; i < m; i++)
+    int[,] matr = new int[row, col];
+    for (int i = 0; i < row; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < col; j++)
         {
             matr[i, j] = new Random().Next(2, 5);
             Console.Write(matr[i, j] + " ");
