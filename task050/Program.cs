@@ -25,8 +25,8 @@ for (int i = 0; i < m; i++)
 
 Console.Write("\nВведите координаты позиции элемента, разделенных запятой: ");
 
-string positionElement = Convert.ToString(Console.ReadLine());
-RemovingSpaces(positionElement);
+string? positionElement = Convert.ToString(Console.ReadLine());
+
 int[] position = Parser(positionElement);
 
 if (position[0] <= m
@@ -80,3 +80,4 @@ string RemovingSpaces(string input)
     }
     return output;
 }
+RemovingSpaces(positionElement);
